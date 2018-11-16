@@ -1,5 +1,5 @@
 # [Twitter Customer Service Investigator](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb)
-This project uses public tweets exchanged between mobile service providers and their customers to help you investigate the Twitter history of YOUR provider and see how it stacks up against the industry's best. The tool exists as a live Jupyter Notebook running on Binder. **Launch the tool by clicking on the "launch binder" button below!**
+This project uses public tweets exchanged between mobile service providers and their customers to help you investigate the Twitter history of YOUR provider and see how it stacks up against the industry's best. The tool exists as a live Jupyter Notebook running on Binder. **Launch the tool by clicking on the "launch binder" button below!** Please note that the notebook takes around 2 minutes to load, so please be patient :)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb)
 
@@ -21,4 +21,4 @@ In a nutshell, I used Natural Language Processing to analyze twitter conversatio
 - The time series were further analyzed over two time periods (two weeks and two months) in order to obtain satisfaction metrics for the companies over their recent vs less-recent past and rank them accordingly ([06_averages_over_time.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/06_averages_over_time.ipynb)).
 
 ##### Interactive web tool
-- The quantitative results obtained from the data analysis were finally made accessible to the end user in the form of an interactive web comparison tool accessible via [this live Jupyter notebook](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb) hosted on Binder.
+- The quantitative results obtained from the data analysis were finally made accessible to the end user in the form of an interactive web comparison tool accessible via [this live Jupyter Notebook](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb) hosted on Binder.
