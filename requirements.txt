@@ -3,3 +3,4 @@ bokeh==0.13.0
 numpy==1.14.3
 ipywidgets==7.0.5
 matplotlib==2.2.2
+jupyter-contrib-nbextensions==0.4.0
