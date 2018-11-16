@@ -1,0 +1,8 @@
+company,2_months_issue_was_resolved,2_months_issue_was_resolved_rank,2_months_issue_was_resolved_averageness,2_weeks_issue_was_resolved,2_weeks_issue_was_resolved_rank,2_weeks_issue_was_resolved_averageness,2_months_cust_sent_improvement,2_months_cust_sent_improvement_rank,2_months_cust_sent_improvement_averageness,2_weeks_cust_sent_improvement,2_weeks_cust_sent_improvement_rank,2_weeks_cust_sent_improvement_averageness,2_months_rank,2_months_averageness,2_weeks_rank,2_weeks_averageness
+ATT,0.23541382883689746,6,below average,0.2307920136346509,6,below average,-0.1292263070665699,4,below average,-0.15973061096165883,7,below average,5,average,7,below average
+BoostCare,0.3037251961162552,1,above average,0.29385715463237727,1,above average,-0.1505076512699311,6,below average,-0.12674696182144102,3,average,4,average,2,above average
+TMobileHelp,0.24049143475878,5,average,0.24180812042595748,5,below average,-0.1420186228171279,5,below average,-0.1449878423487238,5,below average,6,below average,5,below average
+USCellularCares,0.26558806745113167,3,average,0.27427505769864813,3,above average,0.02570106670713002,1,above average,-0.014562867492722604,2,above average,1,above average,2,above average
+VMUcare,0.27016241480195463,2,above average,0.28535646087482125,2,above average,-0.08491023037158735,3,average,-0.14779568574698765,6,below average,2,above average,4,average
+VerizonSupport,0.24719991644803996,4,average,0.26663650611392203,4,average,0.020174751773587466,2,above average,0.034308311202559935,1,above average,2,above average,1,above average
+sprintcare,0.19882962713969807,7,below average,0.21714824505224214,7,below average,-0.17291448515772936,7,below average,-0.14002223786843804,4,below average,7,below average,5,below average
