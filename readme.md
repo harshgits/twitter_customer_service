@@ -1,4 +1,4 @@
-# Twitter Customer Service Investigator
+# [Twitter Customer Service Investigator](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb)
 This project uses public tweets exchanged between mobile service providers and their customers to help you investigate the Twitter history of YOUR provider and see how it stacks up against the industry's best. The tool exists as a live Jupyter Notebook running on Binder. **Launch the tool by clicking on the "launch binder" button below!**
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/harshgits/twitter_customer_service/master?filepath=07_interactive_results.ipynb)
