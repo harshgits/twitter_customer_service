@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Twitter Customer Service Investigator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="/static/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/freelancer.min.css" rel="stylesheet">
+
+
+    <!-- Bokeh links and scripts -->
+    <link
+        href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.css"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.2.min.css"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.2.min.css"
+        rel="stylesheet" type="text/css">
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.js"></script>
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.2.min.js"></script>
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.2.min.js"></script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Twitter Customer Service Investigator</a>
+      </div>
+    </nav>
+
+    <!-- bokeh objects -->
+    <section class="plot" id="plot">
+      <div class="container" style="display: inline-block;">
+        <br><br>
+        
+        <!-- the option dropdowns -->
+        <form action="/">
+
+          <!-- the company drop down -->
+          <span>&emsp;&emsp;</span>
+          <span>Company&nbsp;</span>
+          <select name="cname" onchange="this.form.submit()">
+            {% for cname in cnames %}
+              {% if cname == current_cname %}
+                <option selected value="{{ cname }}">{{ cname }}
+                </option>
+              {% else %}
+                <option value="{{ cname }}">{{ cname }}</option> 
+              {% endif %}
+            {% endfor %}
+          </select>
+
+          <!-- the period drop down -->
+          <span>&emsp;&emsp;</span>
+          <span>Period&nbsp;</span>
+          <select name="histstr" onchange="this.form.submit()">
+            {% for histstr in histstrs %}
+              {% if histstr == current_histstr %}
+                <option selected value="{{histstr}}">{{histstr}}
+                </option>
+              {% else %}
+                <option value="{{histstr}}">{{histstr}}</option> 
+              {% endif %}
+            {% endfor %}
+          </select>
+
+        </form>
+        
+        <!-- the plot elements -->
+        <span>&emsp;&emsp;</span>
+        {{ bokeh_div|safe }}
+        {{ bokeh_script|safe }}
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+            <p class="lead">
+              Hi there, Visitor! I made this tool to help folks choose better mobile service providers by investigating the way these providers treat their customers on Twitter. Hope you like it ^_^
+            </p>
+            <p class="lead">
+              Check out
+              <a href="https://github.com/harshgits/twitter_customer_service">
+                <font color="white"><u>
+                the Github repo
+                </u></font>
+              </a>
+              for more info!
+              And feel free to reach me using the contact info below.
+              <br><br> - Harsh Chaturvedi
+            </p>
+            <p>
+              Email: <i>charsh&lt;seven&gt;gmail.com</i> &nbsp; (replace &lt;seven&gt; with 7)<br>
+              Linkedin: 
+              <a href="https://www.linkedin.com/in/harsh-chaturvedi/">
+                <font color="white"><u><i>
+                linkedin.com/in/harsh-chaturvedi/
+                </i></u></font>
+              </a>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright section -->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>
+          <a href="https://startbootstrap.com/template-overviews/freelancer/">
+            <font color="white"><u><i>
+              Template for this website
+            </i></u></font>
+          </a>
+        </small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/static/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/static/js/jqBootstrapValidation.js"></script>
+    <script src="/static/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/static/js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
