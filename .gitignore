@@ -1,2 +1,5 @@
-twitt_env/
 .ipynb_checkpoints/
+pyenv/
+website/pyenv/
+__pycache__/
+website/__pycache__

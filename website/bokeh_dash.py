@@ -11,7 +11,7 @@ os.chdir(
 ## read in the timeseries
 import pandas as pd
 
-timeseriescsv_path = "../timeseries.csv"
+timeseriescsv_path = "data/timeseries.csv"
 timeserie_df = pd.read_csv(timeseriescsv_path)
 
 # fix index
@@ -19,12 +19,12 @@ timeserie_df = timeserie_df.set_index("time")
 timeserie_df.index = pd.to_datetime(timeserie_df.index)
 
 ## getting the company names and twitter handles
-companiescsv_path = "../companies.csv"
+companiescsv_path = "data/companies.csv"
 comp_df = pd.read_csv(companiescsv_path)
 cnames = sorted(comp_df["company_name"].values)
 
 ## getting the static metrics
-staticmetricscsv_path = "../static_metrics.csv"
+staticmetricscsv_path = "data/static_metrics.csv"
 statmet_df = pd.read_csv(staticmetricscsv_path
 	).set_index("company")
 
