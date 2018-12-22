@@ -1,2 +1,0 @@
-- host on pythonanywhere
-- modify readme to talk about GCP module and website
