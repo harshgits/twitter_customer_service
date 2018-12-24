@@ -1,5 +1,5 @@
 # [Twitter Customer Service Investigator](http://charsh7.pythonanywhere.com)
-This project uses public tweets exchanged between mobile service providers and their customers to help you investigate the Twitter history of YOUR provider and see how it stacks up against the industry's best. [CLICK HERE to check out the web app!](http://charsh7.pythonanywhere.com)
+A web app that lets you investigate the Twitter customer service of your service provider and see how it stacks up against the industry's best. [CLICK HERE to check to check it out!](http://charsh7.pythonanywhere.com)
 
 ## In a nutshell
 I used Natural Language Processing to analyze twitter conversations between mobile service providers and their customers to compute several customer satisfaction metrics for these companies over a period of three months. This information was used to build an interactive web app that allows a user to comprehensively compare the customer service of any provider with competitors and help the user choose the best provider for their needs.
