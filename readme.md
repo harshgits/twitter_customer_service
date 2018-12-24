@@ -2,7 +2,7 @@
 A web app that lets you investigate the Twitter customer service of your service provider and see how it stacks up against the industry's best. [CLICK HERE to check to check it out!](http://charsh7.pythonanywhere.com)
 
 ## In a nutshell
-I used Natural Language Processing to analyze twitter conversations between mobile service providers and their customers to compute several customer satisfaction metrics for these companies over a period of three months. This information was used to build an interactive web app that allows a user to comprehensively compare the customer service of any provider with competitors and help the user choose the best provider for their needs.
+I used Natural Language Processing to analyze twitter conversations between mobile service providers and their customers to compute several customer satisfaction metrics for these companies over a period of three months. This information was used to build an interactive web app that allows a user to comprehensively compare the customer service of any provider with competitors and help them choose the best provider for their needs.
 
 ## Project stages
 
@@ -17,9 +17,9 @@ I used Natural Language Processing to analyze twitter conversations between mobi
 
 - The raw sentiment scores were used to **engineer higher order features** (satisfaction metrics) such as **rate of issue resolution** and **customer sentiment boost** for individual conversations (see [04_create_conversations_table.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/04_create_conversations_table.ipynb)).
 
-- In order to study the evolution of satisfaction metrics with time, I binned and aggregated the metrics in one hour blocks to get metric time series for each mobile service provider (see [05_creating_times_table.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/05_creating_times_table.ipynb)).
+- In order to study the evolution of satisfaction metrics with time, I binned and aggregated the metrics in one hour blocks to get metric **time series** for each mobile service provider (see [05_creating_times_table.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/05_creating_times_table.ipynb)).
 
-- The time series were further analyzed over two time periods (two weeks and two months) in order to obtain satisfaction metrics for the companies over their recent vs less-recent past and rank them accordingly ([06_averages_over_time.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/06_averages_over_time.ipynb)).
+- The time series were further analyzed over two time periods (two weeks and two months) in order to obtain satisfaction metrics for the companies over their **recent vs less-recent past** and **rank** them accordingly ([06_averages_over_time.ipynb](https://github.com/harshgits/twitter_customer_service/blob/master/06_averages_over_time.ipynb)).
 
 ### Interactive web app
 - The quantitative results obtained from the data analysis were finally made accessible to the end user in the form of an interactive [web app](http://charsh7.pythonanywhere.com). 
