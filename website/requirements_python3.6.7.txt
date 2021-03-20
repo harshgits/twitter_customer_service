@@ -3,7 +3,7 @@ certifi==2018.11.29
 Click==7.0
 Flask==1.0.2
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 numpy==1.14.3
 packaging==18.0
